@@ -7,7 +7,6 @@ df = pd.read_csv(sti)
 desired_years = [1968, 1969, 1970]
 mask = df['year'].isin(desired_years)
 
-# Use the mask to filter the DataFrame
 filtered_df = df[mask]
 
 print(filtered_df)
